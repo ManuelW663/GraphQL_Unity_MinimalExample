@@ -1,0 +1,9 @@
+subscription {
+  queryEventSession( filter: { number: { eq: 1 }}) {
+	number
+	name
+    objects{
+      id
+    }
+  }
+}
